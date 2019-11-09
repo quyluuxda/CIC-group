@@ -1,0 +1,24 @@
+@mixin line-clamp($line, $lineHeight, $fixedHeight) {
+	$fixedHeight: false !default;
+	
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    line-height: $lineHeight;
+
+    @if $fixedHeight == true {
+	    height: calc(#{$lineHeight} * #{$line});
+    } @else {
+    	max-height: calc(#{$lineHeight} * #{$line});
+    }
+}
+
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

@@ -1,0 +1,54 @@
+.bg-dark {
+	background-color: #222528!important;
+}
+
+.bg-gray {
+	background-color: #f8f9fc;
+}
+
+.bg-gray-2 {
+	background-color: #eeeeee;
+}
+
+.wrap {
+	width: 100%;
+	overflow: hidden;
+}
+
+img {
+	max-width: 100%;
+}
+
+.modal-backdrop {
+	// z-index: -1;
+}
+
+.color-subbase {
+	color: $color-subbase !important;
+}
+
+.next-is-pagination {
+	margin-bottom: 40px;
+}
+
+.icon-pdf {
+	background-image: url("../images/icons/icon-pdf.png");
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+.left--30 {
+	left: -30px;
+}
+
+.no-border-top {
+	border-top: none !important;
+}
+
+@media (max-width: 991px) {
+	.next-is-pagination {
+		margin-bottom: 60px * 0.6;
+	}
+}

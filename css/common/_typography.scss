@@ -1,0 +1,93 @@
+body {
+    font-family: $font-base;
+    font-size: $font-size-base;
+    font-weight: 400;
+    color: $color-base;
+    letter-spacing: 0.025em;
+}
+
+a {
+    transition: color 0.3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    color: $color-dark;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+
+    a {
+        color: inherit;
+    }
+
+    &:hover {
+        a {
+            color: inherit;
+        }
+    }
+}
+
+.font-base {
+    font-family: $font-base;
+}
+
+.font-subbase {
+    font-family: $font-subbase;
+}
+
+.page-h1 {
+    font-size: $font-size-h1;
+}
+.page-h2 {
+    font-size: $font-size-h2;
+}
+.page-h3 {
+    font-size: $font-size-h3;
+}
+.page-h4 {
+    font-size: $font-size-h4;
+}
+.page-h5 {
+    font-size: $font-size-h5;
+}
+
+@media (max-width: 1199px) {
+    .page-h1 {
+        font-size: $font-size-h1 * 0.8;
+    }
+    .page-h2 {
+        font-size: $font-size-h2 * 0.8;
+    }
+    .page-h3 {
+        font-size: $font-size-h3 * 0.8;
+    }
+    .page-h4 {
+        font-size: $font-size-h4 * 0.8;
+    }
+    .page-h5 {
+        font-size: $font-size-h5 * 0.8;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-h1 {
+        font-size: $font-size-h1 * 0.6;
+    }
+    .page-h2 {
+        font-size: $font-size-h2 * 0.6;
+    }
+    .page-h3 {
+        font-size: $font-size-h3 * 0.6;
+    }
+    .page-h4 {
+        font-size: $font-size-h4 * 0.6;
+    }
+    .page-h5 {
+        font-size: $font-size-h5 * 0.6;
+    }
+}

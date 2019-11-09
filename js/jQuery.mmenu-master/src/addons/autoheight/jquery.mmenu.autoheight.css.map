@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AASC,sBACA,CACC,UAAU,CAAE,aAAkD,CAC9D,mBAAmB,CAAE,iBAAiB,CAEtC,yCACA,CACC,QAAQ,CAAE,QAAQ,CAMnB,+GAEA,CACC,OAAO,CAAE,gBAAgB,CAE1B,8CACA,CACC,MAAM,CAAE,eAAe,CACvB,MAAM,CAAE,eAAe",
+"sources": ["jquery.mmenu.autoheight.scss"],
+"names": [],
+"file": "jquery.mmenu.autoheight.css"
+}
