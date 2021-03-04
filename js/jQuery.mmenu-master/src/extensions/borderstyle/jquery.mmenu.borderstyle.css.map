@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAWC,yIACA,CACC,OAAO,CAAE,IAAI,CAQd,yIACA,CACC,IAAI,CAAE,YAAY,CAQnB,+IACA,CACC,KAAK,CCDc,IAAe",
-"sources": ["jquery.mmenu.borderstyle.scss","../../scss/_variables.scss"],
-"names": [],
-"file": "jquery.mmenu.borderstyle.css"
-}

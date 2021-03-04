@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AASC,oBACA,CACC,UAAU,CAAE,MAAM,CAEnB,wBACA,CACC,UAAU,CAAE,OAAO,CACnB,UAAU,CAAE,KAAK,CAElB,4BACA,CACC,UAAU,CAAE,UAAU,CACtB,aAAa,CCkCK,IAAkC,CCnBrD,SAAS,CAAE,kBAAmB,CAC9B,SAAS,CAAE,uBAAyB,CFZrC,mBACA,CACC,OAAO,CAAE,KAAK",
-"sources": ["jquery.mmenu.iconbar.scss","../../scss/_variables.scss","../../scss/_mixins_general.scss"],
-"names": [],
-"file": "jquery.mmenu.iconbar.css"
-}

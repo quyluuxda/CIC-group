@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAaG,8XAGA,CACC,UAAU,CAAE,mBAAwD,CC0JrE,4IAEA,CACC,UAAU,CChKkB,qBAAiB,CDwK7C,oOAGA,CACC,UAAU,CC5KiB,qBAAiB",
-"sources": ["jquery.mmenu.setselected.scss","../../scss/_mixins_colors.scss","../../scss/_variables.scss"],
-"names": [],
-"file": "jquery.mmenu.setselected.css"
-}

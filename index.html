@@ -1,1056 +1,764 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Home</title>
-        <!-- Bootstrap Core CSS -->
-        <!-- Custom Fonts -->
-        <link href="fonts/fontawesome-pro-5.8.2-web/css/all.min.css" type="text/css" rel="stylesheet">
-        <!-- <link href="fonts/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet"> -->
-        <link href="fonts/themify-icons/themify-icons.css" type="text/css"
-            rel="stylesheet">
-        <link href="fonts/elegantIcon/elegantIcon.css" type="text/css"
-            rel="stylesheet">
-        <link href="css/material-icons.css" type="text/css" rel="stylesheet">
-        <!-- Custom CSS -->
-        <link href="css/animate.css" type="text/css" rel="stylesheet">
-        <link href="css/owl.carousel.min.css" type="text/css" rel="stylesheet">
-        <link href="css/owl.theme.default.min.css" type="text/css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-        <link rel="stylesheet" href="css/jquery.mmenu.css">
-        <link href="css/main.css" type="text/css" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home</title>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link href="fonts/fontawesome-pro-5.8.2-web/css/all.min.css" type="text/css" rel="stylesheet">
+    <link href="css/slick.css" type="text/css" rel="stylesheet">
+    <link href="css/animate.css" type="text/css" rel="stylesheet">
+    <link href="css/jquery.fullPage.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-    <body>
-        <div class="wrap">
-            <!--Begin: header-->
-            <header>
-                <div class="page-top">
-                    <div class="container">
-                        <div class="page-top-content d-flex flex-nowrap justify-content-between align-items-center">
-                            <div class="page-top-left">
-                                <a href="tel:0965693622">
-                                    <span class="icon_phone"> </span>
-                                    <span> 096.569.3622</span></a>
-                                <a class="mail-mr" href="mailto:maythicongtoanphat@gmail.com"><span class="icon_mail"></span>
-                                    <span>maythicongtoanphat@gmail.com</span>
-                                </a>
-                            </div>
-                            <div class="page-top-right flex-nowrap justify-content-end align-items-center">
-                                <ul class="social-list header-social-list">
-                                    <li>
-                                        <a href="" class="social-facebook">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="social-youtube">
-                                            <i class="fab fa-youtube"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="social-google">
-                                            <i class="fab fa-google-plus-g"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <form action="" class="search-form header-search-form">
-                                    <input type="search" placeholder="Search...">
-                                    <div class="search-form-btn">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                </form>
-                                <form class="choose-language">
-                                    <input type="radio" name="language" id="lang-us">
-                                    <label for="lang-us"><img src="image/usa.jpg" alt=""></label>
-                                    <input type="radio" name="language" id="lang-vi"  checked>
-                                    <label for="lang-vi"><img src="image/vn.jpg" alt=""></label>
-                                </form>
-                            </div>
+<body class="home-page">
+    <div class="wrap">
+        <header class="header">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <a href="index.html" title="CIC" class="logo"><img src="images/logo.png" alt=""></a>
+                    <div class="wrap-control-header">
+                        <form class="search-form">
+                            <input type="search" placeholder="Search...">
+                        </form>
+                        <div class="language">
+                            <a class="smooth active" href="#">VI</a>
                         </div>
+                        <button class="menu-btn">Menu <span><i></i><i></i><i></i></span></button>
                     </div>
                 </div>
-                <div class="main-header bg-dark ripple ripple-in-box">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col col-sm-6 col-lg-3">
-                                <div class="logo">
-                                    <a href=""><img src="image/LOGO-1.jpg" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-9 d-none d-xl-block">
-                                <nav class="menu">
-                                    <ul class="menu-list">
-                                        <li class="active"><a href="index.html">Trang
-                                                chủ</i></a></li>
-                                    <li><a href="gioi-thieu.html">Giới thiệu</a></li>
-                                    <li><a href="san-pham.html">Sản phẩm</a>
-                                        <ul>
-                                            <li><a
-                                                    href="danh-muc-san-pham-lv1.html">Level 1 submenu demo</a></li>
-                                            <li><a
-                                                    href="danh-muc-san-pham-lv1.html">Level 1 submenu demo</a></li>
-                                            <li><a
-                                                    href="danh-muc-san-pham-lv1.html">Level 1 submenu demo</a></li>
-                                            <li><a
-                                                    href="danh-muc-san-pham-lv1.html">Level 1 submenu demo</a></li>
-                                            <li>
-                                                <a
-                                                    href="danh-muc-san-pham-lv1.html">Level 2 submenu demo</a>
-                                                <ul>
-                                                    <li><a href="">Level 2 submenu demo</a></li>
-                                                    <li><a href="">Level 2 submenu demo</a></li>
-                                                    <li><a href="">Level 2 submenu demo</a></li>
-                                                    <li><a href="">Level 2 submenu demo</a></li>
-                                                    <li><a href="">Level 2 submenu demo</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="dich-vu.html">Dịch vụ</a></li>
-                                    <li><a href="phu-tung.html">Phụ tùng</a></li>
-                                    <li><a href="tin-tuc.html">Tin Tức</a></li>
-                                    <li><a href="tuyen-dung.html">Tuyển Dụng</a></li>
-                                    <li><a href="lien-he.html">Liên hệ</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-
-                        <div class="col d-flex d-xl-none justify-content-end
-                            algin-items-center">
-                            <a href="#menu-mobile" class="btn-menu"><span
-                                    class="icon_menu"></span></a>
-
-                            <nav id="menu-mobile" class="mm-menu mm-offcanvas
-                                mm-pagedim-black">
-                                <ul>
-                                    <li><a href="index.html">Trang chủ</a></li>
-                                    <li><a href="gioi-thieu.html">Giới thiệu</a></li>
-                                    <li>
-                                        <a href="san-pham.html">Sản phẩm</a>
-                                        <ul>
-                                            <li><a href="">Level 1 submenu demo</a></li>
-                                            <li><a href="">Level 1 submenu demo</a></li>
-                                            <li><a href="">Level 1 submenu demo</a></li>
-                                            <li><a href="">Level 1 submenu demo</a></li>
-                                            <li><a href="">Level 1 submenu demo</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li><a href="dich-vu.html">Dịch vụ</a></li>
-                                    <li><a href="phu-tung.html">Phụ tùng</a></li>
-                                    <li><a href="tin-tuc.html">Tin tức</a></li>
-                                    <li><a href="tuyen-dung.html">Tuyển dụng</a></li>
-                                    <li><a href="lien-he.html">Liên hệ</a></li>
-                                    <div class="search mt-2">
-                                        <input type="text" class="searchTerm" placeholder="Nhập từ khóa">
-                                        <button type="submit" class="searchButton">
-                                            <i class="fal fa-search"></i>
-                                        </button>
-                                    </div>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
+            </div>
+            <div class="main-menu">
+                <!-- <ul>
+                    <li class="main-menu__title">
+                        <a href="#">TỰ HÀO THƯƠNG HIỆU</a>
+                        <ul>
+                            <li>
+                                <a href="#">DNA của Flamingo</a>
+                            </li>
+                            <li>
+                                <a href="#">Cột mốc đáng nhớ</a>
+                            </li>
+                            <li>
+                                <a href="#">Văn hoá vì con người</a>
+                            </li>
+                            <li>
+                                <a href="#">Đơn vị thành viên</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main-menu__title">
+                        <a href="#">THẾ MẠNH VƯỢT TRỘI</a>
+                        <ul>
+                            <li>
+                                <a href="#">Bất động sản</a>
+                            </li>
+                            <li>
+                                <a href="#">Nghỉ dưỡng</a>
+                            </li>
+                            <li>
+                                <a href="#">Quản lý vận hành</a>
+                            </li>
+                            <li>
+                                <a href="#">Du lịch lữ hành</a>
+                            </li>
+                            <li>
+                                <a href="#">Xây dựng - Kiến trúc</a>
+                            </li>
+                            <li>
+                                <a href="#">Dự án đô thị</a>
+                            </li>
+                            <li>
+                                <a href="#">Trách nhiệm xã hội</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main-menu__title">
+                        <a href="#">DẤU ẤN FLAMINGO</a>
+                        <ul>
+                            <li>
+                                <a href="#">Flamingo Đại Lải</a>
+                            </li>
+                            <li>
+                                <a href="#">Flamingo Cát Bà</a>
+                            </li>
+                            <li>
+                                <a href="#">Flamingo Thanh Hoá</a>
+                            </li>
+                            <li>
+                                <a href="#">Flamingo Thái Nguyên</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li class="main-menu__title">
+                                <a href="#">TINH HOA TOẢ SÁNG</a>
+                            </li>
+                            <li class="main-menu__title">
+                                <a href="#">THEO DÒNG SỰ KIỆN</a>
+                            </li>
+                            <li class="main-menu__title">
+                                <a href="#">Flamingo Loyalty</a>
+                            </li>
+                            <li class="main-menu__title">
+                                <a href="#">TUYỂN DỤNG</a>
+                            </li>
+                            <li class="main-menu__title">
+                                <a href="#">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul> -->
+                <!-- <div class="main-menu__label">
+                    menu
+                </div> -->
             </div>
         </header>
-        <!--End: header-->
-        <section>
-            <a href="tel:0965693622" class="btn-fixed btn-fixed--hotline">
-                <div class="phone-fixed-wrapper">
-                    096.569.3622
-                </div>
-            </a>
-
-            <!-- Button trigger modal -->
-            <a href="javascript:;" class="btn-fixed btn-fixed--enquiry" data-toggle="modal" data-target="#exampleModal"></a>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Lời nhắn</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <form action="" class="enquiry-form">
-                                <div class="form-group row">
-                                    <label class="col-md-3">Họ tên</label>
-                                    <div class="col-md-9">
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-md-3">Điện thoại</label>
-                                    <div class="col-md-9">
-                                        <input type="tel" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-md-3">Lời nhắn</label>
-                                    <div class="col-md-9">
-                                        <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn--outline ripple" data-dismiss="modal">Đóng</button>
-                            <button type="button" class="btn btn--outline ripple">Gửi đi</button>
+        <div id="fullpage">
+            <section class="section banner">
+                <div class="cas-home">
+                    <div class="item">
+                        <img src="images/banner1.jpg" alt="" data-animation="animated Tzoom delay06">
+                        <div class="ct">
+                            <div class="container">
+                                <a href="" class="fz72 text1" data-animation="animated fadeInRight delay08">chất
+                                    lượng<span> hiệu quả </span><span> thẩm mỹ </span>kỷ luật</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-- <section class="home-top ripple ripple-in-box" ripple> -->
-        <div class="home-carousel owl-carousel">
-            <div class="home-carousel-item">
-                <div class="home-carousel-item__img">
-                    <a href=""><img src="image/TP-Trang chu.jpg" alt=""></a>
-                </div>
-                <div class="home-carousel-item__text">
-                    <div class="container">
-                        <div class="row no-gutters">
-                            <div class="col-md-6 offset-md-3">
-                                <div
-                                    class="home-carousel-item__text-inner">
-                                    <h2
-                                        class="home-carousel-item__subtitle">MÁY XÚC ĐÀO LIÊN HỢP CHANG-LIN</h2>
-                                    <div
-                                        class="home-carousel-item__desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...
-                                    </div>
-                                </div>
+                    <div class="item">
+                        <img src="images/banner2.jpg" alt="" data-animation="animated Tzoom delay06">
+                        <div class="ct">
+                            <div class="container">
+                                <a href="" class="fz72 text1" data-animation="animated fadeInRight delay08">chất
+                                    lượng<span> hiệu quả </span><span> thẩm mỹ </span>kỷ luật</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-                    <div class="home-carousel-item">
-                        <div class="home-carousel-item__img">
-                            <a href=""><img src="image/banner-home-2.jpg" alt=""></a>
-                        </div>
-                        <div class="home-carousel-item__text">
-                            <div class="container">
-                                <div class="row no-gutters">
-                                    <div class="col-md-6 offset-md-3">
-                                        <div
-                                            class="home-carousel-item__text-inner">
-                                            <h2
-                                                class="home-carousel-item__subtitle">MÁY XÚC ĐÀO LIÊN HỢP CHANG-LIN</h2>
-                                            <div
-                                                class="home-carousel-item__desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...
+            </section>
+            <section class="section about"
+                style="    background: url(images/bg-about-home1.jpg); background-size: cover; background-position: center;">
+                <div id="about">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 mobile-none">
+                                <div class="img">
+                                    <img class="mask" src="images/img-about-home.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="wrap-ct">
+                                    <div class="ct">
+                                        <h4 class="title-primary">Giới thiệu</h4>
+                                        <h3 class="title-primary v2">CIC Group</h3>
+                                        <p class="desc">
+                                            Công ty Cổ phần Tập đoàn Tư vấn Đầu tư Xây dựng Kiên Giang được thành lập vào
+                                            ngày 29/10/1992 với tên gọi là Công ty Khảo sát thiết kế có số vốn điều lệ ban
+                                            đầu là 118 triệu đồng. Sau khi thực hiện chuyển đổi sang loại hình doanh nghiệp
+                                            theo chủ trương cổ phần hoá của Chính phủ vào tháng 03/2006, CIC GROUP đã hoạt
+                                            động với vốn điều lệ đăng ký 45 tỷ đồng, nay đã tăng lên 500 tỷ đồng, trở thành
+                                            một Tập đoàn lớn mạnh với 10 Công ty thành viên, liên kết.
+                                        </p>
+                                    </div>
+                                    <div class="overview-about">
+                                        <div class="item">
+                                            <i class="fal fa-hourglass"></i>
+                                            <p class="num">30</p>
+                                            <div class="desc-group">
+                                                <span class="desc1">năm</span>
+                                                <span class="desc2">Kinh nghiệm</span>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <i class="fal fa-chart-line"></i>
+                                            <p class="num">1.049</p>
+                                            <div class="desc-group">
+                                                <span class="desc1">tỷ</span>
+                                                <span class="desc2">Doanh thu 2019</span>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <i class="fal fa-layer-group"></i>
+                                            <p class="num">500</p>
+                                            <div class="desc-group">
+                                                <span class="desc1">+ Dự án</span>
+                                                <span class="desc2">Đã hoàn thành</span>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <i class="fal fa-users"></i>
+                                            <p class="num">30</p>
+                                            <div class="desc-group">
+                                                <span class="desc1">Người</span>
+                                                <span class="desc2">Quy mô nhân sự</span>
                                             </div>
                                         </div>
                                     </div>
+                                    <a href="" class="button-primary">Tìm hiểu thêm <i
+                                            class="fas fa-long-arrow-alt-right"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class="q-title-wc">
-                        <h2>CHÀO MỪNG ĐẾN VỚI MÁY THI CÔNG TOÀN PHÁT</h2>
-                    </div>
-                </div>
-                <section class="home-img-box-wrapper">
-                    <div class="q-grid-container">
-                        <div class="img-box q-grid-item">
-                            <div class="img-box__img">
-                                <a href=""><img src="image/HOME5_03.jpg" alt=""></a>
-                            </div>
-                            <div class="img-box__text">
-                                <h3 class="img-box__title"><a href="">MÁY ĐÀO BÁNH XÍCH CHANGLIN</a></h3>
-                            </div>
-                        </div>
-                        <div class="img-box q-grid-item">
-                            <div class="img-box__img">
-                                <a href=""><img src="image/HOME5_05.jpg" alt=""></a>
-                            </div>
-                            <div class="img-box__text">
-                                <h3 class="img-box__title"><a href="">MÁY SAN GẠT CHANGLIN</a></h3>
-                            </div>
-                        </div>
-                        <div class="img-box q-grid-item">
-                            <div class="img-box__img">
-                                <a href=""><img src="image/HOME5_07.jpg" alt=""></a>
-                            </div>
-                            <div class="img-box__text">
-                                <h3 class="img-box__title"><a href="">xe tải tự đổ</a></h3>
-                            </div>
-                        </div>
-
-                        <div class="img-box q-grid-item">
-                            <div class="img-box__img">
-                                <a href=""><img src="image/HOME5_10.jpg" alt=""></a>
-                            </div>
-                            <div class="img-box__text">
-                                <h3 class="img-box__title"><a href="">MÁY XÚC TRƯỢT CHANGLIN</a></h3>
-                            </div>
-                        </div>
-                        <div class="img-box q-grid-item">
-                            <div class="img-box__img">
-                                <a href=""><img src="image/HOME5_16.jpg" alt=""></a>
-                            </div>
-                            <div class="img-box__text">
-                                <h3 class="img-box__title"><a href="">MÁY ĐÀO BÁNH LỐP CHANGLIN</a></h3>
-                            </div>
-                        </div>
-                        <div class="img-box q-grid-item">
-                            <div class="img-box__img">
-                                <a href=""><img src="image/HOME5_17.jpg" alt=""></a>
-                            </div>
-                            <div class="img-box__text">
-                                <h3 class="img-box__title"><a href="">MÁY LU RUNG</a></h3>
-                            </div>
-                        </div>
-                        <div class="img-box q-grid-item">
-                            <div class="img-box__img">
-                                <a href=""><img src="image/HOME5_18.jpg" alt=""></a>
-                            </div>
-                            <div class="img-box__text">
-                                <h3 class="img-box__title"><a href="">MÁY KHOAN</a></h3>
-                            </div>
-                        </div>
-
-                        <div class="img-box q-grid-item">
-                            <div class="img-box__img">
-                                <a href=""><img src="image/HOME5_19.jpg" alt=""></a>
-                            </div>
-                            <div class="img-box__text">
-                                <h3 class="img-box__title"><a href="">xe nâng CHANGLIN</a></h3>
-                            </div>
-                        </div>
-                        <div class="img-box q-grid-item">
-                            <div class="img-box__img">
-                                <a href=""><img src="image/HOME5_25.jpg" alt=""></a>
-                            </div>
-                            <div class="img-box__text">
-                                <h3 class="img-box__title"><a href="">MÁY ủi BÁNH XÍCH</a></h3>
-                            </div>
-                        </div>
-                        <div class="img-box q-grid-item">
-                            <div class="img-box__img">
-                                <a href=""><img src="image/HOME5_27.jpg" alt=""></a>
-                            </div>
-                            <div class="img-box__text">
-                                <h3 class="img-box__title"><a href="">MÁY XÚC LẬT CHANGLIN</a></h3>
-                            </div>
-                        </div>
-                        <div class="img-box q-grid-item">
-                            <div class="img-box__img">
-                                <a href=""><img src="image/HOME5_28.jpg" alt=""></a>
-                            </div>
-                            <div class="img-box__text">
-                                <h3 class="img-box__title"><a href="">MÁY XÚC ĐÀO LIÊN HỢP CHANGLIN</a></h3>
-                            </div>
-                        </div>
-
-                        <div class="img-box q-grid-item">
-                            <div class="img-box__img">
-                                <a href=""><img src="image/HOME5_29.jpg" alt=""></a>
-                            </div>
-                            <div class="img-box__text">
-                                <h3 class="img-box__title"><a href="">CÁC SẢN PHẨM KHÁC</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="home-center bg-gray">
+            </section>
+            <section class="section field"
+                style="background: url(images/bg-field-home.jpg);background-size: cover; background-position: center;">
+                <div id="field">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-9">
-                                <nav class="page-nav-wrapper d-flex justify-content-between align-items-center">
-                                    <ul class="nav page-nav flex-column flex-sm-row align-items-sm-center" role="tablist">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" href="#tab1" data-toggle="tab" role="tab" aria-controls="tab1" aria-selected="true" aria-expanded="false">Tin tức</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#tab2" data-toggle="tab" role="tab" aria-controls="tab2" aria-selected="false" aria-expanded="true">Khuyến mại</a>
-                                        </li>
-                                    </ul>
-                                    <a href="" class="btn-link btn-link-all">Tất cả <span class="arrow_right"></span></a>
-                                </nav>
-    
-                                <div class="tab-content">
-                                    <div class="tab-pane fade active show" id="tab1" role="tabpanel" aria-labelledby="tab1-tab" aria-expanded="true">
-                                        <div class="home-box-carousel owl-carousel">
-                                            <div class="home-box-carousel-item">
-                                                <div class="row">
-                                                    <div class="col home-box-left">
-                                                        <div class="ripple home-news-box home-news-box--big q-home-news-box">
-                                                            <div class="home-news-box__img home-news-box__img--big">
-                                                                <a href=""><img src="image/thumbnail1.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text home-news-box__text--big">
-                                                                <h3 class="home-news-box__title home-news-box__title--big">
-                                                                    <a href="">Đoàn Việt Nam sang thăm nhà máy</a>
-                                                                </h3>
-                                                                <div class="home-news-box__desc">
-                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut egestas dui, quis feugiat felis. Mauris non libero in nunc egestas dictum. Etiam vitae ipsum vitae libero tincidu...
-                                                                </div>
-                                                                <div class="home-news-box__bottom">
-                                                                    <div class="home-news-box__datetime">
-                                                                        <span class="icon_clock_alt"></span>
-                                                                        10 minute
-                                                                    </div>
-                                                                    <a href="" class="btn-link">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col home-box-right">
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_03.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Caterplillar Propulsion Seminar</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-    
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_06.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente explicabo minima soluta rem sunt eius iure atque officiis, omnis, alias quia iusto fuga autem doloribus repellendus harum. Quisquam at ea expedita perferendis, vero placeat eaque beatae ad culpa, eligendi recusandae alias voluptatibus nam, fuga minus laboriosam quis a nulla.</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-    
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_09.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="home-box-carousel-item">
-                                                <div class="row">
-                                                    <div class="col home-box-left">
-                                                        <div class="ripple home-news-box home-news-box--big q-home-news-box">
-                                                            <div class="home-news-box__img home-news-box__img--big">
-                                                                <a href=""><img src="image/thumbnail1.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text home-news-box__text--big">
-                                                                <h3 class="home-news-box__title home-news-box__title--big">
-                                                                    <a href="">Đoàn Việt Nam sang thăm nhà máy</a>
-                                                                </h3>
-                                                                <div class="home-news-box__desc">
-                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut egestas dui, quis feugiat felis. Mauris non libero in nunc egestas dictum. Etiam vitae ipsum vitae libero tincidu...
-                                                                </div>
-                                                                <div class="home-news-box__bottom">
-                                                                    <div class="home-news-box__datetime">
-                                                                        <span class="icon_clock_alt"></span>
-                                                                        10 minute
-                                                                    </div>
-                                                                    <a href="" class="btn-link">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col home-box-right">
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_03.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Caterplillar Propulsion Seminar</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-    
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_06.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente explicabo minima soluta rem sunt eius iure atque officiis, omnis, alias quia iusto fuga autem doloribus repellendus harum. Quisquam at ea expedita perferendis, vero placeat eaque beatae ad culpa, eligendi recusandae alias voluptatibus nam, fuga minus laboriosam quis a nulla.</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-    
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_09.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="home-box-carousel-item">
-                                                <div class="row">
-                                                    <div class="col home-box-left">
-                                                        <div class="ripple home-news-box home-news-box--big q-home-news-box">
-                                                            <div class="home-news-box__img home-news-box__img--big">
-                                                                <a href=""><img src="image/thumbnail1.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text home-news-box__text--big">
-                                                                <h3 class="home-news-box__title home-news-box__title--big">
-                                                                    <a href="">Đoàn Việt Nam sang thăm nhà máy</a>
-                                                                </h3>
-                                                                <div class="home-news-box__desc">
-                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut egestas dui, quis feugiat felis. Mauris non libero in nunc egestas dictum. Etiam vitae ipsum vitae libero tincidu...
-                                                                </div>
-                                                                <div class="home-news-box__bottom">
-                                                                    <div class="home-news-box__datetime">
-                                                                        <span class="icon_clock_alt"></span>
-                                                                        10 minute
-                                                                    </div>
-                                                                    <a href="" class="btn-link">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col home-box-right">
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_03.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Caterplillar Propulsion Seminar</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-    
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_06.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente explicabo minima soluta rem sunt eius iure atque officiis, omnis, alias quia iusto fuga autem doloribus repellendus harum. Quisquam at ea expedita perferendis, vero placeat eaque beatae ad culpa, eligendi recusandae alias voluptatibus nam, fuga minus laboriosam quis a nulla.</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-    
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_09.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-    
-                                    <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab" aria-expanded="false">
-                                        <div class="home-box-carousel owl-carousel">
-                                            <div class="home-box-carousel-item">
-                                                <div class="row">
-                                                    <div class="col home-box-left">
-                                                        <div class="ripple home-news-box home-news-box--big q-home-news-box">
-                                                            <div class="home-news-box__img home-news-box__img--big">
-                                                                <a href=""><img src="image/thumbnail1.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text home-news-box__text--big">
-                                                                <h3 class="home-news-box__title home-news-box__title--big">
-                                                                    <a href="">Đoàn Việt Nam sang thăm nhà máy</a>
-                                                                </h3>
-                                                                <div class="home-news-box__desc">
-                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut egestas dui, quis feugiat felis. Mauris non libero in nunc egestas dictum. Etiam vitae ipsum vitae libero tincidu...
-                                                                </div>
-                                                                <div class="home-news-box__bottom">
-                                                                    <div class="home-news-box__datetime">
-                                                                        <span class="icon_clock_alt"></span>
-                                                                        10 minute
-                                                                    </div>
-                                                                    <a href="" class="btn-link">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col home-box-right">
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_03.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Caterplillar Propulsion Seminar</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-    
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_06.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente explicabo minima soluta rem sunt eius iure atque officiis, omnis, alias quia iusto fuga autem doloribus repellendus harum. Quisquam at ea expedita perferendis, vero placeat eaque beatae ad culpa, eligendi recusandae alias voluptatibus nam, fuga minus laboriosam quis a nulla.</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-    
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_09.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="home-box-carousel-item">
-                                                <div class="row">
-                                                    <div class="col home-box-left">
-                                                        <div class="ripple home-news-box home-news-box--big q-home-news-box">
-                                                            <div class="home-news-box__img home-news-box__img--big">
-                                                                <a href=""><img src="image/thumbnail1.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text home-news-box__text--big">
-                                                                <h3 class="home-news-box__title home-news-box__title--big">
-                                                                    <a href="">Đoàn Việt Nam sang thăm nhà máy</a>
-                                                                </h3>
-                                                                <div class="home-news-box__desc">
-                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut egestas dui, quis feugiat felis. Mauris non libero in nunc egestas dictum. Etiam vitae ipsum vitae libero tincidu...
-                                                                </div>
-                                                                <div class="home-news-box__bottom">
-                                                                    <div class="home-news-box__datetime">
-                                                                        <span class="icon_clock_alt"></span>
-                                                                        10 minute
-                                                                    </div>
-                                                                    <a href="" class="btn-link">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col home-box-right">
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_03.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Caterplillar Propulsion Seminar</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-    
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_06.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente explicabo minima soluta rem sunt eius iure atque officiis, omnis, alias quia iusto fuga autem doloribus repellendus harum. Quisquam at ea expedita perferendis, vero placeat eaque beatae ad culpa, eligendi recusandae alias voluptatibus nam, fuga minus laboriosam quis a nulla.</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-    
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_09.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="home-box-carousel-item">
-                                                <div class="row">
-                                                    <div class="col home-box-left">
-                                                        <div class="ripple home-news-box home-news-box--big q-home-news-box">
-                                                            <div class="home-news-box__img home-news-box__img--big">
-                                                                <a href=""><img src="image/thumbnail1.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text home-news-box__text--big">
-                                                                <h3 class="home-news-box__title home-news-box__title--big">
-                                                                    <a href="">Đoàn Việt Nam sang thăm nhà máy</a>
-                                                                </h3>
-                                                                <div class="home-news-box__desc">
-                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut egestas dui, quis feugiat felis. Mauris non libero in nunc egestas dictum. Etiam vitae ipsum vitae libero tincidu...
-                                                                </div>
-                                                                <div class="home-news-box__bottom">
-                                                                    <div class="home-news-box__datetime">
-                                                                        <span class="icon_clock_alt"></span>
-                                                                        10 minute
-                                                                    </div>
-                                                                    <a href="" class="btn-link">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col home-box-right">
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_03.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Caterplillar Propulsion Seminar</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-    
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_06.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente explicabo minima soluta rem sunt eius iure atque officiis, omnis, alias quia iusto fuga autem doloribus repellendus harum. Quisquam at ea expedita perferendis, vero placeat eaque beatae ad culpa, eligendi recusandae alias voluptatibus nam, fuga minus laboriosam quis a nulla.</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-    
-                                                        <div class="home-news-box q-home-news-box ripple">
-                                                            <div class="home-news-box__img">
-                                                                <a href=""><img src="image/small-img_09.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="home-news-box__text">
-                                                                <h3 class="home-news-box__title">
-                                                                    <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a>
-                                                                </h3>
-                                                                
-                                                                <div class="home-news-box__bottom">
-                                                                    <a href="" class="btn-link btn-link-dark">Xem thêm<span class="arrow_carrot-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-    
                             <div class="col-lg-3">
-                                <aside class="home-aside">
-                                    <h3 class="title-border-in-left">Facebook</h3>
-                                    <iframe class="fb-pc" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcongtymaythicongtoanphat%2F&tabs=timeline&width=281&height=423&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="281" height="423" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                                    <iframe class="fb-mobile" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcongtymaythicongtoanphat%2F&tabs=timeline&width=340&height=423&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="423" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                                </aside>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- phần giải thưởng -->
-                <section class="wrap-box-award">
-                    <div class="container">
-                        <div class="award-title">
-                            <p>40 năm xây dựng phát triển</p>
-                            <p>Những phần thưởng cao quý của Đảng và Nhà nước</p>
-                        </div>
-                        <div class="img-award">
-                            <div class="award-item">
-                                <img src="image/bang-khen_03.jpg" alt="">
-                                <div class="award-text">
-                                    <p class="text1">bằng khen bộ công thương</p>
-                                    <p class="text2">bộ trưởng : vũ huy hoàng</p>
+                                <h4 class="title-primary">Lĩnh vực</h4>
+                                <h3 class="title-primary v2">đầu tư</h3>
+                                <div class="cas-list-field">
+                                    <div class="item">
+                                        <img src="images/ic-field1.png" alt="">
+                                        <p class="title">Xây dựng</p>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/ic-field2.png" alt="">
+                                        <p class="title">Bất động sản</p>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/ic-field3.png" alt="">
+                                        <p class="title">Đầu tư tài chính</p>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/ic-field4.png" alt="">
+                                        <p class="title">Thương mại dịch vụ</p>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/ic-field5.png" alt="">
+                                        <p class="title">Giáo dục</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="award-item">
-                                <img src="image/bang-khen_05.jpg" alt="">
-                                <div class="award-text">
-                                    <p class="text1">BẰNG KHEN CỦA THỦ TƯỚNG</p>
-                                    <p class="text2">THỦ TƯỚNG : NGUYỄN TẤN DŨNG</p>
+                            <div class="col-lg-9">
+                                <div class="cas-img-field">
+                                    <div class="img">
+                                        <img src="images/img-field1.jpg" alt="">
+                                        <a href="" class="link"></a>
+                                    </div>
+                                    <div class="img">
+                                        <img src="images/img-field4.jpg" alt="">
+                                        <a href="" class="link"></a>
+                                    </div>
+                                    <div class="img">
+                                        <img src="images/img-field2.jpg" alt="">
+                                        <a href="" class="link"></a>
+                                    </div>
+                                    <div class="img">
+                                        <img src="images/img-field3.jpg" alt="">
+                                        <a href="" class="link"></a>
+                                    </div>
+                                    <div class="img">
+                                        <img src="images/img-field4.jpg" alt="">
+                                        <a href="" class="link"></a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="award-item">
-                                <img src="image/bang-khen_07.jpg" alt="">
-                                <div class="award-text">
-                                    <p class="text1">Huân chương lao động hạng ba</p>
-                                    <p class="text2">chủ tịch nước : lê đức anh</p>
-                                </div>
-                            </div>
-                            <div class="award-item">
-                                <img src="image/bang-khen_03.jpg" alt="">
-                                <div class="award-text">
-                                    <p class="text1">bằng khen bộ công thương</p>
-                                    <p class="text2">bộ trưởng : vũ huy hoàng</p>
-                                </div>
-                            </div>
-                            <div class="award-item">
-                                <img src="image/bang-khen_05.jpg" alt="">
-                                <div class="award-text">
-                                    <p class="text1">BẰNG KHEN CỦA THỦ TƯỚNG</p>
-                                    <p class="text2">THỦ TƯỚNG : NGUYỄN TẤN DŨNG</p>
-                                </div>
-                            </div>
-                            <div class="award-item">
-                                <img src="image/bang-khen_07.jpg" alt="">
-                                <div class="award-text">
-                                    <p class="text1">Huân chương lao động hạng ba</p>
-                                    <p class="text2">chủ tịch nước : lê đức anh</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- phần doi tac -->
-                <section class="wrap-partners">
-                    <p class="title">
-                        KHÁCH HÀNG VÀ ĐỐI TÁC
-                    </p>
-                    <div class="container">
-                        <div class="partner-items">
-                            <img src="image/doi-tac_03.jpg" alt="">
-                            <img src="image/doi-tac_05.jpg" alt="">
-                            <img src="image/doi-tac_07.jpg" alt="">
-                            <img src="image/doi-tac_09.jpg" alt="">
-                            <img src="image/doi-tac_11.jpg" alt="">
-                            <img src="image/doi-tac_13.jpg" alt="">
-                            <img src="image/doi-tac_03.jpg" alt="">
-                            <img src="image/doi-tac_05.jpg" alt="">
-                            <img src="image/doi-tac_07.jpg" alt="">
-                            <img src="image/doi-tac_09.jpg" alt="">
-                            <img src="image/doi-tac_11.jpg" alt="">
-                            <img src="image/doi-tac_13.jpg" alt="">
-                        </div>
-                        <div class="partner-items-mobile">
-                            <img src="image/doi-tac_03.jpg" alt="">
-                            <img src="image/doi-tac_05.jpg" alt="">
-                            <img src="image/doi-tac_07.jpg" alt="">
-                            <img src="image/doi-tac_09.jpg" alt="">
-                            <img src="image/doi-tac_11.jpg" alt="">
-                            <img src="image/doi-tac_13.jpg" alt="">
-                        </div>
-                    </div>
-                </section>
-                <footer>
-                    <div class="news-letter">
-                        <div class="container">
-                            <div class="news-letter__content">
-                                <div class="news-letter__left">
-                                    <h4 class="news-letter__title">Đăng ký nhận tin</h4>
-                                    <span class="news-letter__subtitle">Nhận thông tin mới nhất về khuyến mại và giảm giá</span>
-                                </div>
-                                <div class="news-letter__center">
-                                    <form action="" class="news-letter__form">
-                                        <input type="email" placeholder="Nhập email của bạn">
-                                        <button>ĐĂNG KÝ</button>
-                                    </form>
-                                </div>
-                                <div class="news-letter__right">
-                                    <ul class="news-letter__social-list">
-                                        <li><a href="" class="news-letter__social-facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="" class="news-letter__social-youtube"><i class="fab fa-youtube"></i></a></li>
-                                        <li><a href="" class="news-letter__social-google"><i class="fab fa-google-plus-g"></i></a></li>
-                                    </ul>
+                                <div class="cas-content-field">
+                                    <div class="item">
+                                        <p class="desc">Tư vấn đầu tư là một lĩnh vực rất khó và cần có nhiều kinh
+                                            nghiệm, hiểu biết về các dự án cùng môi trường đầu tư, các vấn đề liên quan
+                                            khác. Là một quỹ đầu tư có uy tín và hướng đến hiệu quả trong công việc,
+                                            chúng tôi luôn đứng về phía khách hàng</p>
+                                        </p>
+                                        <a href="" class="button-primary">Tìm hiểu thêm <i
+                                                class="fas fa-long-arrow-alt-right"></i></a>
+                                    </div>
+                                    <div class="item">
+                                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+                                            aspernatur doloribus possimus eius in repellendus autem ea cumque labore
+                                            ullam.</p>
+                                        <a href="" class="button-primary">Tìm hiểu thêm <i
+                                                class="fas fa-long-arrow-alt-right"></i></a>
+                                    </div>
+                                    <div class="item">
+                                        <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem,
+                                            vel!</p>
+                                        <a href="" class="button-primary">Tìm hiểu thêm <i
+                                                class="fas fa-long-arrow-alt-right"></i></a>
+                                    </div>
+                                    <div class="item">
+                                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Excepturi quas consequatur itaque quo rem repudiandae eaque explicabo
+                                            pariatur maiores at, quae corrupti delectus. Neque, delectus!</p>
+                                        <a href="" class="button-primary">Tìm hiểu thêm <i
+                                                class="fas fa-long-arrow-alt-right"></i></a>
+                                    </div>
+                                    <div class="item">
+                                        <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
+                                            consequuntur quo praesentium quia distinctio amet fuga nisi nam?</p>
+                                        <a href="" class="button-primary">Tìm hiểu thêm <i
+                                                class="fas fa-long-arrow-alt-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="footer-middle">
-                        <div class="container">
-                            <div class="row-divide">
-                                <div class="col-first footer-col">
-                                    <div class="row">
-                                        <div class="col-lg-5 col-sm-12 mb-4">
-                                            <h4 class="footer-title">Thông tin liên hệ</h4>
-                                            <h5 class="footer-title-2">TRỤ SỞ CHÍNH TẠI HÀ NỘI</h5>
-                                            <div class="footer-info">
-                                                <span class="icon_pin"></span>
-                                                <span class="text">506 Hà Huy Tập - Gia Lâm - Hà Nội</span>
-                                            </div>
-                                            <div class="footer-info">
-                                                <span class="icon_phone"></span>
-                                                <a href="tel:0965693622">096.569.3622</a>
-                                            </div>
-                                            <div class="footer-info">
-                                                <span class="icon_mail"></span>
-                                                <a href="mailto:maythicongtoanphat@gmail.com">maythicongtoanphat@gmail.com</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 offset-lg-1 col-sm-12">
-                                            <h5 class="footer-title-2">VĂN PHÒNG ĐẠI DIỆN MIỀN TRUNG</h5>
-                                            <div class="footer-info">
-                                                <span class="icon_pin"></span>
-                                                <span class="text">Đường Phạm Như Xương nối dài, Phường Hoà Khánh Bắc, Quận Liên Chiểu, Đà Nẵng.</span>
-                                            </div>
-                                            <div class="footer-info">
-                                                <span class="icon_phone"></span>
-                                                <a href="tel:0965693622">096.569.3622</a>
-                                            </div>
-                                            <div class="footer-info mb-4">
-                                                <span class="icon_mail"></span>
-                                                <a href="mailto:maythicongtoanphat@gmail.com">maythicongtoanphat@gmail.com</a>
-                                            </div>
-                                            <h5 class="footer-title-2">VĂN PHÒNG ĐẠI DIỆN MIỀN NAM</h5>
-                                            <div class="footer-info">
-                                                <span class="icon_pin"></span> 
-                                                <span class="text">247/31 Hà Huy Giáp, khu phố 3A, phường Thạnh Lộc, Quận 12, TP Hồ Chí Minh.</span>
-                                            </div>
-                                            <div class="footer-info">
-                                                <span class="icon_phone"></span>
-                                                <a href="tel:0965693622">096.569.3622</a>
-                                            </div>
-                                            <div class="footer-info">
-                                                <span class="icon_mail"></span>
-                                                <a href="mailto:maythicongtoanphat@gmail.com">maythicongtoanphat@gmail.com</a>
+                </div>
+            </section>
+            <section class="section project">
+                <div id="project">
+                    <div class="tabs-project-wrap">
+                        <h4 class="title-primary">Dự án</h4>
+                        <h3 class="title-primary v2">Tiêu biểu</h3>
+                        <ul class="nav nav-tabs tabs-project">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#tabs-prj1">
+                                    Đang thực hiện
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-prj2">
+                                    Sắp triển khai
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-prj3">
+                                    Đã hoàn thành
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane active show" id="tabs-prj1">
+                            <div class="cas-prj animated fadeInLeft">
+                                <div class="item">
+                                    <div class="img"><img src="images/dang-thuc-hien1.jpg" data-animation="animated delay06"
+                                            alt="" title="" /></div>
+                                    <div class="ct">
+                                        <div class="container">
+                                            <div class="wrap-content">
+                                                <p class="title fz60" data-animation="animated fadeInDown delay06">
+                                                    Trường Quốc tế Mekong Xanh</p>
+                                                <p class="desc" data-animation="animated fadeInUp delay10">Trường Quốc
+                                                    tế Mekong Xanh (Mekong Green International
+                                                    School) do CIC GROUP làm Chủ đầu tư, với tổng diện tích hơn 8.471
+                                                    m2 ,tổng vốn đầu tư là  154,5 tỷ đồng, được xây dựng tại Khu đô thị
+                                                    mới lấn biển Tây Bắc. Đây là một cột mốc quan trọng đánh dấu sự phát
+                                                    triển của CIC Group...</p>
+                                                <div class="group-action" data-animation="animated fadeInUp delay12">
+                                                    <a href="" class="button-primary">Tìm hiểu thêm <i
+                                                            class="fas fa-long-arrow-alt-right"></i></a>
+                                                    <a href="" class="ic-360"><img src="images/ic-360.png" alt=""></a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-        
-                                <div class="col-second footer-col">
-                                    <h4 class="footer-title">Giới thiệu</h4>
-                                    <ul class="footer-list">
-                                        <li><a href="index.html">Trang chủ</a></li>
-                                        <li><a href="san-pham.html">Sản phẩm</a></li>
-                                        <li><a href="dich-vu.html">Dịch vụ</a></li>
-                                        <li><a href="phu-tung.html">Phụ tùng</a></li>
-                                        <li><a href="tin-tuc.html">Tin tức</a></li>
-                                        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
-                                        <li><a href="tuyen-dung.html">Tuyển dụng</a></li>
-                                        <li><a href="lien-he.html">Liên hệ</a></li>
-                                    </ul>
+                                <!-- <div class="item">
+                                    <div class="img"><img src="images/dang-thuc-hien2.png" data-animation="animated delay06"
+                                            alt="" title="" /></div>
+                                    <div class="ct">
+                                        <div class="container">
+                                            <div class="wrap-content">
+                                                <p class="title fz60" data-animation="animated fadeInDown delay06">KHU BIỆT THỰ CAO CẤP BÚNG GỘI ( ROYAL STREAMY VILLAS )</p>
+                                                <p class="desc" data-animation="animated fadeInUp delay10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quae alias voluptates magnam saepe fugiat quos suscipit omnis qui dolor nesciunt ratione doloremque ipsa veniam minus dolore, itaque molestiae modi numquam corporis fuga. Dolorem veritatis unde aperiam temporibus quis rem rerum quia doloribus asperiores nemo quaerat atque quos voluptatum aliquam dicta adipisci esse tempora, optio perferendis molestias numquam placeat itaque? Minus nihil velit ullam illum similique repellendus obcaecati mollitia nesciunt. Soluta eius minima tempore omnis, consequuntur sunt quae officia reprehenderit.</p>
+                                                <div class="group-action" data-animation="animated fadeInUp delay12">
+                                                    <a href="" class="button-primary">Tìm hiểu thêm <i
+                                                            class="fas fa-long-arrow-alt-right"></i></a>
+                                                    <a href="" class="ic-360"><img src="images/ic-360.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="item">
+                                    <div class="img"><img src="images/dang-thuc-hien3.jpg" data-animation="animated delay06"
+                                            alt="" title="" /></div>
+                                    <div class="ct">
+                                        <div class="container">
+                                            <div class="wrap-content">
+                                                <p class="title fz60" data-animation="animated fadeInDown delay06">Khu đô thị mới lấn biển Tây Bắc TP. Rạch Giá</p>
+                                                <p class="desc" data-animation="animated fadeInUp delay10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quae alias voluptates magnam saepe fugiat quos suscipit omnis qui dolor nesciunt ratione doloremque ipsa veniam minus dolore, itaque molestiae modi numquam corporis fuga. Dolorem veritatis unde aperiam temporibus quis rem rerum quia doloribus asperiores nemo quaerat atque quos voluptatum aliquam dicta adipisci esse tempora, optio perferendis molestias numquam placeat itaque? Minus nihil velit ullam illum similique repellendus obcaecati mollitia nesciunt. Soluta eius minima tempore omnis, consequuntur sunt quae officia reprehenderit.</p>
+                                                <div class="group-action" data-animation="animated fadeInUp delay12">
+                                                    <a href="" class="button-primary">Tìm hiểu thêm <i
+                                                            class="fas fa-long-arrow-alt-right"></i></a>
+                                                    <a href="" class="ic-360"><img src="images/ic-360.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-        
-                                <div class="col-third footer-col">
-                                    <h4 class="footer-title">Sản phẩm</h4>
-                                    <ul class="footer-list">
-                                        <li><a href="chi-tiet-san-pham.html">Máy đào bánh xích Changlin</a></li>
-                                        <li><a href="chi-tiet-san-pham.html">Máy đào bánh lốp Changlin</a></li>
-                                        <li><a href="chi-tiet-san-pham.html">Máy xúc đào liên hợp Changlin</a></li>
-                                        <li><a href="chi-tiet-san-pham.html">Máy xúc lật Changlin</a></li>
-                                        <li><a href="chi-tiet-san-pham.html">Máy ủi Changlin</a></li>
-                                        <li><a href="chi-tiet-san-pham.html">Máy san gạt Changlin</a></li>
-                                        <li><a href="chi-tiet-san-pham.html">Máy xúc trượt Changlin</a></li>
-                                        <li><a href="chi-tiet-san-pham.html">Xe nâng Changlin</a></li>
-                                    </ul>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tabs-prj2">
+                            <div class="cas-prj animated fadeInLeft">
+                                <div class="item">
+                                    <div class="img"><img src="images/CayMen-Lan02 (12).jpg" alt="" title="" /></div>
+                                    <div class="ct">
+                                        <div class="container">
+                                            <div class="wrap-content">
+                                                <p class="title fz60" data-animation="animated fadeInDown delay06">Dự án khu du lịch nghỉ dưỡng bãi Cây Mến - Nam Du, huyện Duyên Hải</p>
+                                                <p class="desc" data-animation="animated fadeInUp delay10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, praesentium! Illum, repellat voluptate nobis, quod labore magnam placeat officia saepe minima in adipisci vel architecto odit culpa amet. Qui animi sapiente totam quia beatae rem ea adipisci rerum perspiciatis, nisi, necessitatibus aut suscipit corrupti at, quod tenetur? Nobis veniam dicta quos voluptas eius fuga quia accusamus voluptatibus in dolores, nesciunt vitae ipsa accusantium aliquam, numquam distinctio, nihil quas animi laudantium suscipit exercitationem! Repellendus soluta quod voluptatibus excepturi odit itaque nisi?</p>
+                                                <div class="group-action" data-animation="animated fadeInUp delay12">
+                                                    <a href="" class="button-primary">Tìm hiểu thêm <i
+                                                            class="fas fa-long-arrow-alt-right"></i></a>
+                                                    <a href="" class="ic-360"><img src="images/ic-360.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-        
+                                <div class="item">
+                                    <div class="img"><img src="images/GoldenHillComplex 02.MP4_snapshot_00.31.136.jpg" alt="" title="" /></div>
+                                    <div class="ct">
+                                        <div class="container">
+                                            <div class="wrap-content">
+                                                <p class="title fz60" data-animation="animated fadeInDown delay06">Khu phức hợp thương mại, căn hộ cao cấp RESIDENT HILL</p>
+                                                <p class="desc" data-animation="animated fadeInUp delay10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias quos iste quas voluptate, nesciunt minima repellendus eaque quis assumenda nisi iusto ratione, dolores omnis non exercitationem voluptates harum ducimus ea perspiciatis soluta autem! Dolorum ex dignissimos obcaecati aut quibusdam perferendis odio rem dolores, nihil, esse suscipit ullam ut, dolor sit hic illum! Modi consequuntur, non ad quo unde aliquid minus blanditiis optio? Deserunt quos nostrum in, facere, dicta maxime libero eius repellendus laboriosam velit repellat ex sequi, suscipit delectus eaque.</p>
+                                                <div class="group-action" data-animation="animated fadeInUp delay12">
+                                                    <a href="" class="button-primary">Tìm hiểu thêm <i
+                                                            class="fas fa-long-arrow-alt-right"></i></a>
+                                                    <a href="" class="ic-360"><img src="images/ic-360.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tabs-prj3">
+                            <div class="cas-prj animated fadeInLeft">
+                                <div class="item">
+                                    <div class="img"><img src="images/Nhà ở xã hội 444 Ngô Quyền.JPG" alt="" title="" /></div>
+                                    <div class="ct">
+                                        <div class="container">
+                                            <div class="wrap-content">
+                                                <p class="title fz60" data-animation="animated fadeInDown delay06">Nhà ở xã hội 444 Ngô Quyền</p>
+                                                <p class="desc" data-animation="animated fadeInUp delay10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis maxime obcaecati deleniti, iste vero placeat delectus optio. Fugit animi, voluptates ducimus mollitia corporis expedita sunt numquam architecto consequuntur laudantium eligendi ab rem, ullam sit voluptas unde quis nostrum voluptatem ipsam quasi esse. Officia reiciendis necessitatibus quo porro omnis corrupti est, praesentium expedita ipsam. Veritatis, libero nobis nam magnam assumenda porro!</p>
+                                                <div class="group-action" data-animation="animated fadeInUp delay12">
+                                                    <a href="" class="button-primary">Tìm hiểu thêm <i
+                                                            class="fas fa-long-arrow-alt-right"></i></a>
+                                                    <a href="" class="ic-360"><img src="images/ic-360.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="img"><img src="images/P24 Hình 4- KDC An Bình đang triển khai xây dựng.jpg" alt="" title="" /></div>
+                                    <div class="ct">
+                                        <div class="container">
+                                            <div class="wrap-content">
+                                                <p class="title fz60" data-animation="animated fadeInDown delay06">Khu dân cư An Bình</p>
+                                                <p class="desc" data-animation="animated fadeInUp delay10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus totam reiciendis iusto. Esse perspiciatis culpa voluptatibus neque excepturi voluptates, doloribus eaque fugiat ipsum molestias minus ad at atque iusto saepe facilis, quaerat amet accusantium ut delectus. Quidem magnam ut minima magni voluptas? Nihil beatae assumenda, nesciunt qui dolorum fugit corrupti, optio suscipit, odio unde fuga! Porro sequi autem eligendi adipisci!</p>
+                                                <div class="group-action" data-animation="animated fadeInUp delay12">
+                                                    <a href="" class="button-primary">Tìm hiểu thêm <i
+                                                            class="fas fa-long-arrow-alt-right"></i></a>
+                                                    <a href="" class="ic-360"><img src="images/ic-360.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="footer-bottom">
-                        <div class="container">
-                            <div class="copyright">
-                                Copyright © 2019. Alright reserved. Design by <a href="www.apecsoft.asia">Apecsoft</a>
+                </div>
+            </section>
+            <section class="section exchanges"
+                style="background: url(images/bg-exchanges-home.jpg); background-size: cover; background-position: center;">
+                <div id="exchanges">
+                    <div class="container">
+                        <div class="block-title">
+                            <div class="group-title">
+                                <h4 class="title-primary">Sàn giao dịch</h4>
+                                <h3 class="title-primary v2">Bất động sản</h3>
+                            </div>
+                            <a href="" class="button-primary">Xem tất cả <i class="fas fa-th"></i></a>
+                        </div>
+                        <div class="list-exchanges">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="images/img-exchange1.jpg" alt="">
+                                </div>
+                                <div class="ct">
+                                    <div class="wrap-title">
+                                        <p class="title">Đất nền Tây Bắc</p>
+                                    </div>
+                                    <span class="next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                </div>
+                                <a href="" class="link"></a>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="images/img-exchange2.jpg" alt="">
+                                </div>
+                                <div class="ct">
+                                    <div class="wrap-title">
+                                        <p class="title">Nhà phố trệt 02 lầu L36 khu dân cư An Bình Nhà phố trệt 02 lầu
+                                            L36 khu dân cư An Bình</p>
+                                    </div>
+                                    <span class="next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                </div>
+                                <a href="" class="link"></a>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="images/img-exchange3.jpg" alt="">
+                                </div>
+                                <div class="ct">
+                                    <div class="wrap-title">
+                                        <p class="title">Căn hộ loại A Chung cư 444 Ngô Quyền</p>
+                                    </div>
+                                    <span class="next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                </div>
+                                <a href="" class="link"></a>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="images/img-exchange4.jpg" alt="">
+                                </div>
+                                <div class="ct">
+                                    <div class="wrap-title">
+                                        <p class="title">Đất nền Tây Bắc</p>
+                                    </div>
+                                    <span class="next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                </div>
+                                <a href="" class="link"></a>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="images/img-exchange5.jpg" alt="">
+                                </div>
+                                <div class="ct">
+                                    <div class="wrap-title">
+                                        <p class="title">Nhà phố trệt 02 lầu L36 khu dân cư An Bình</p>
+                                    </div>
+                                    <span class="next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                </div>
+                                <a href="" class="link"></a>
                             </div>
                         </div>
                     </div>
-                </footer>
+                </div>
+            </section>
+            <section class="section news"
+                style="background: url(images/bg-news-home.jpg); background-size: cover; background-position: center;">
+                <div id="news">
+                    <div class="container">
+                        <div class="block-title">
+                            <div class="group-title">
+                                <h4 class="title-primary">Tin tức</h4>
+                                <h3 class="title-primary v2">Nổi bật</h3>
+                            </div>
+                            <a href="" class="button-primary">Xem tất cả <i class="fas fa-th"></i></a>
+                        </div>
+                        <div class="list-news-home">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="item-main">
+                                        <div class="img">
+                                            <img src="images/img-new-main1.jpg" alt="">
+                                        </div>
+                                        <div class="ct">
+                                            <p class="title">Dự án Khu đô thị mới lấn biển Tây Bắc TP. Rạch Giá</p>
+                                            <span class="desc">Dự án Khu Đô thị mới lấn biển (KĐTMLB) Tây Bắc TP. Rạch
+                                                Giá đang gấp rút đẩy nhanh tiến độ thi công để có thể bàn giao nhà cho
+                                                khách theo đúng tiến độ..</span>
+                                            <span class="next"><i class="far fa-long-arrow-alt-right"></i></span>
+                                        </div>
+                                        <a href="" class="link"></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-md-6">
+                                    <div class="item">
+                                        <div class="img">
+                                            <img src="images/img-new1.jpg" alt="">
+                                        </div>
+                                        <div class="ct">
+                                            <p class="title">Giao lưu Hội thao kỷ niệm Ngày Phụ nữ Việt Nam 20-10</p>
+                                        </div>
+                                        <a href="" class="link"></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-md-6">
+                                    <div class="item">
+                                        <div class="img">
+                                            <img src="images/img-new2.jpg" alt="">
+                                        </div>
+                                        <div class="ct">
+                                            <p class="title">CIC Group nhận bằng khen tại Lễ tôn vinh Doanh nghiệp –
+                                                Doanh nhân tiêu biểu 2020.</p>
+                                        </div>
+                                        <a href="" class="link"></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-md-6">
+                                    <div class="item">
+                                        <div class="img">
+                                            <img src="images/img-new3.jpg" alt="">
+                                        </div>
+                                        <div class="ct">
+                                            <p class="title">Siêu thị CIC Mart chính thức khai trương vào ngày
+                                                16/08/2020</p>
+                                        </div>
+                                        <a href="" class="link"></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-md-6">
+                                    <div class="item">
+                                        <div class="img">
+                                            <img src="images/img-new4.jpg" alt="">
+                                        </div>
+                                        <div class="ct">
+                                            <p class="title">Trường Quốc tế Mekong Xanh khai giảng năm học 2020 - 2021
+                                            </p>
+                                        </div>
+                                        <a href="" class="link"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section connect" style="background: url(images/bg-connect-home.jpg); background-size: cover;
+            background-position: center;">
+                <div id="connect">
+                    <div class="container">
+                        <div class="block-title">
+                            <div class="group-title">
+                                <h4 class="title-primary">Công ty thành viên</h4>
+                                <h3 class="title-primary v2">& liên kết</h3>
+                            </div>
+                        </div>
+                        <div class="list-connect">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="images/logo-connect1.png" alt="">
+                                </div>
+                                <p class="title">CÔNG TY CP CIC TINH KHÔI</p>
+                                <a href="" class="link"></a>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="images/logo-connect2.png" alt="">
+                                </div>
+                                <p class="title">CÔNG TY TNHH ĐẦU TƯ XÂY DỰNG CIC PHÚ QUỐC</p>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="images/logo-connect3.png" alt="">
+                                </div>
+                                <p class="title">CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ CIC KIÊN GIANG</p>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="images/logo-connect4.png" alt="">
+                                </div>
+                                <p class="title">CÔNG TY TNHH CIC EDUCATION</p>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="images/logo-connect5.png" alt="">
+                                </div>
+                                <p class="title">CÔNG TY CP TVXD CIC NAM VIỆT</p>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="images/logo-connect1.png" alt="">
+                                </div>
+                                <p class="title">CÔNG TY CP CIC TINH KHÔI</p>
+                            </div>
+                        </div>
+                        <div class="group-contact">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="block-contact">
+                                        <p class="title-contact">
+                                            CÔNG TY CỔ PHẦN TẬP ĐOÀN TƯ VẤN ĐẦU TƯ XÂY DỰNG KIÊN GIANG
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <span>A:</span> 34 Trần Phú - Vĩnh Thanh - TP Rạch Giá - Kiên Giang
+                                            </li>
+                                            <li>
+                                                <span>T:</span> <a class="smooth" href="tel:(02973) 874.660">(02973)
+                                                    874.660</a>
+                                            </li>
+                                            <li>
+                                                <span>F:</span> <a class="smooth" href="tel:(02973) 866.451">(02973)
+                                                    866.451</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="contact-social">
+                                        <div class="mobile-app">
+                                            <p class="title-contact">
+                                                Ứng dụng di động
+                                            </p>
+                                            <a href=""><img src="images/ios-app.png" alt=""></a>
+                                            <a href=""><img src="images/android-app.png" alt=""></a>
+                                        </div>
+                                        <div class="social-group">
+                                            <p class="title-contact">
+                                                Kết nối với CIC group
+                                            </p>
+                                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                                            <a href=""><i class="fab fa-twitter"></i></a>
+                                            <a href=""><i class="fab fa-instagram"></i></a>
+                                            <a href=""><i class="fab fa-youtube"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copy-right-wrap">
+                    <div class="container">
+                        <div class="copy-right fz16">
+                            <p> &#169; 2020 2021. Bản quyền thuốc về Tập đoàn tư vấn đầu tư xây dựng Kiên Giang</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div id="fb-root"></div>
+    <script type="text/javascript">
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v9.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/slick.min.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/wow.min.js" type="text/javascript"></script>
+    <script src="js/scrollspy.js" type="text/javascript"></script>
+    <script src="js/jquery.sticky-kit.js" type="text/javascript"></script>
+    <script src="js/jquery.fullPage.js" type="text/javascript"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <!-- <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeERZGTMeCEHUw7dIEac2DPzJZUtv_PrU&callback=initMap">
+        </script> -->
+</body>
 
-            </div>
-            <!-- jQuery -->
-            <script src="js/jquery.js"></script>
-            <!-- Bootstrap Core JavaScript -->
-            <script type="text/javascript" src="js/poper.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <!-- Custom JS -->
-            <script src="js/wow.min.js"></script>
-            <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-            <script type="text/javascript" src="js/jQuery.mmenu-master/dist/jquery.mmenu.js"></script>
-            <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-            <script type="text/javascript" src="js/slick.min.js"></script>
-            <script src="js/common.js"></script>
-            <script src="js/slide.js"></script>
-        </body>
-
-    </html>
+</html>

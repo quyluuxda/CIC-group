@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAMA,yBAA0B,CACzB,OAAO,CAAE,IAAI,CC+LZ,iCACA,CACC,UAAU,CC1LmB,qBAAiB",
-"sources": ["jquery.mmenu.keyboardnavigation.scss","../../scss/_mixins_colors.scss","../../scss/_variables.scss"],
-"names": [],
-"file": "jquery.mmenu.keyboardnavigation.css"
-}
