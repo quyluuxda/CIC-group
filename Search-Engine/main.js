@@ -1,7 +1,7 @@
 
 //get Data json file
 function getData(keyword = '') {
-    return fetch('./data.json')
+    return fetch('https://quyluuxda.github.io/Niteco/Search-Engine/data.json')
         .then((response) => {
             return response.json();
         }).then((data) => {
@@ -29,10 +29,10 @@ function itemEmployee(image, name, age, gender, email) {
 function loadEmployee(keyword = '') {
     var listEmployeeHTML = '';
     getData(keyword).then((data) => {
-        if(data.length == 0) {
+        if (data.length == 0) {
             listEmployeeHTML = '<h2 class="no-results">No match was found</h2>';
-        }else {
-            console.log(typeof(data));
+        } else {
+            console.log(typeof (data));
             data.forEach(function (item, index) {
                 listEmployeeHTML += itemEmployee(data[index].image, data[index].name, data[index].age, data[index].gender, data[index].email);
             })
