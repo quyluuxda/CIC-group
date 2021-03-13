@@ -1,30 +1,34 @@
 @font-face {
-    font-family: "Metric";
-    src: url("../font/MetricWeb-Regular.woff") format("woff");
-    src: url("../font/MetricWeb-Regular.woff2") format("woff2");
+	font-family: 'Gotham';
+	src: url('../font/gothamhtf-book-webfont.ttf') format('truetype');
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'Gotham';
+	src: url('../font/gothamhtf-bold-webfont.ttf') format('truetype');
+	font-weight: 700;
 }
 
+$f1: "Gotham", sans-serif;
+$f2: "Font Awesome 5 Pro";
 $c-bg: #21201e;
-$color1: #dec117;
-$c-text: #fff;
+$c-text: #000;
 
 html {
-    font-size: 15px;
+    font-size: 13px;
     @media (min-width:768px) {
         font-size: 16px;
     }
     @media (min-width:1366px) {
-        font-size: 18px;
+        font-size: 17.3px;
     }
 }
 
 body {
-    background: $c-bg;
-    font-family: "Metric", sans-serif;
+    font-family: $f1;
     margin: 0;
     color: $c-text;
     font-size: 1rem;
-    font-weight: 300;
 }
 
 *{
@@ -33,8 +37,6 @@ body {
 
 .container {
     margin: auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 ul {
@@ -45,6 +47,7 @@ ul {
 }
 
 h1,h2,h3,h4,h5,p{
+    display: block;
     margin: 0;
     font-weight: 300;
     line-height: 1.4;
@@ -62,31 +65,6 @@ img {
     object-fit: cover;
 }
 
-.btn-primary{
-    display: inline-block;
-    width: fit-content;
-    padding: 10px 20px;
-    font-size: 1.11rem;
-    text-transform: uppercase;
-    background: $color1;
-    transition: 0.3s;
-    &:hover{
-        text-decoration: underline;
-    }
-}
-
-.title-main{
-    font-size: 2.667rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    @media (max-width: 767px) {
-        font-size: 2rem;
-    }
-}
-
-.group-primary{
-    margin: 4rem 0;
-}
 
 @media (min-width: 576px) {
     .container {
@@ -106,6 +84,11 @@ img {
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
+    }
+}
+@media (min-width: 1450px) {
+    .container {
+        max-width: 1250px;
     }
 }
 @media (min-width: 1599px) {
